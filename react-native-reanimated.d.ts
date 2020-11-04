@@ -105,6 +105,7 @@ declare module 'react-native-reanimated' {
       toValue: Adaptable<number>;
       duration: Adaptable<number>;
       easing: EasingFunction;
+      useNativeDriver: boolean;
     }
 
     export type SpringState = PhysicsAnimationState;
